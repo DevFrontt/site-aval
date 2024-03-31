@@ -17,7 +17,7 @@ body {
     font-weight: 200;
     color: #FFFFFF;
     position: relative;
-    width: 1920px;
+    /* width: 1920px; */
     /* height: 6427px; */
     background: #1A191E;
 }
@@ -1102,6 +1102,10 @@ footer {
 /* ---------responsive--------- */
 
 @media screen and (max-width:391px) {
+    body {
+        max-width: 390px;
+        margin: 0 auto;
+    }
     .sec-2,
     .sec-3,
     .sec-4,
